@@ -1,0 +1,200 @@
+/* Custom CSS */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+
+  section {
+    padding: 60px 0;
+  }
+  
+  #hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: black;
+  }
+  #development-cycle h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  #development-cycle p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  #development-cycle ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  #development-cycle ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  #development-cycle ul li a {
+    text-decoration: none;
+    color: #28a745;
+  }
+  
+  #development-cycle ul li a:hover {
+    text-decoration: underline;
+  }
+  .industry-title {
+    color: #6c757d;
+    font-weight: bold;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.icon img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.green-text {
+    color: #28a745;
+}
+
+
+
+
+
+.section-title {
+    font-weight: bold;
+    color: #343a40;
+}
+.nav-tabs .nav-link.active {
+    border-color: #007bff;
+    border-bottom: 2px solid #007bff;
+}
+.nav-tabs .nav-link {
+    border: none;
+    color: #6c757d;
+}
+.project-description {
+    color: #6c757d;
+}
+.stats {
+    color: #343a40;
+    /* font-size: 1.em; */
+    
+}
+#stats1 {
+    margin-left: 5em;
+    
+}
+#Growth{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    
+}
+.icon {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.icon img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+
+
+.gradient-background {
+    background: linear-gradient(90deg, #f39c12, #27ae60);
+    padding: 50px;
+    color: white;
+}
+.discussion-form {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.form-title {
+    font-weight: bold;
+    color: #343a40;
+}
+.form-description {
+    color: #6c757d;
+}
+.form-label {
+    color: #6c757d;
+    font-size: 0.9em;
+    margin-bottom: 0;
+}
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    box-shadow: none;
+}
+.btn-custom {
+    background-color: #f39c12;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+.btn-custom:hover {
+    background-color: #e67e22;
+}
+
+.para{
+    font-size: 1.1em;
+    
+}
+
+
+/* FAQ Section */
+#faq-accordion .card-header {
+  background-color: #f8f9fa;
+}
+
+#faq-accordion .btn-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+#faq-accordion .btn-link:hover {
+  text-decoration: none;
+  color: #0056b3;
+}
+
+#faq-accordion .card-body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  background-color: #000000;
+  color: white;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .row div {
+  padding: 10px 0;
+}
+
+  
+  /* footer {
+    background-color: #333;
+  } */
+  
