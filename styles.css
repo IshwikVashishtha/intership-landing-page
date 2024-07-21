@@ -3,10 +3,30 @@ body {
     font-family: Arial, sans-serif;
   }
   
-  header {
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
+  /* Custom CSS */
+body {
+    font-family: Arial, sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  #header {
+    padding: 10px 0;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml,...'); /* This is a placeholder. Use Bootstrap's default or customize */
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-nav {
+      text-align: center;
+    }
   }
   
 
